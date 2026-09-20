@@ -153,7 +153,7 @@ st.markdown("""
 
 CARD_CLASSES = ["card-blue", "card-pink", "card-purple", "card-orange", "card-amber"]
 
-GSHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxfZ7f292zc7Rcq8OdalCQIKl9WDY1fAc21pBMAmXFKr1qnQ3F8FeH-vJqIebuWKQ1U8A/exec"
+GSHEET_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyYtKQHNbMjCi2ZBF3JDUToP5CRvqaheHYDEEwTAQ-dT3lAnSHAozN42Ob1rzFkOwxh/exec"
 
 def send_score_to_gsheet(student_name, exam_code, section_name, score_raw, score_100):
     payload = {
