@@ -20,6 +20,19 @@ st.set_page_config(
 # --- CSS CAO CẤP PASTEL MULTI-COLOR, BOLD TEXT, MOBILE-FIRST ---
 st.markdown("""
 <style>
+
+    /* Che/Ẩn header, menu ba chấm, nút Deploy và logo góc phải trên của Streamlit */
+    header[data-testid="stHeader"],
+    [data-testid="stHeader"],
+    #MainMenu,
+    div[data-testid="stToolbar"],
+    div[data-testid="stDecoration"],
+    div[data-testid="stStatusWidget"] {
+        display: none !important;
+        visibility: hidden !important;
+        height: 0px !important;
+    }
+
     .stApp {
         background-color: #F8FAFC !important;
     }
